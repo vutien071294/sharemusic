@@ -1,0 +1,27 @@
+.report-view {
+  color: #333;
+  background: transparent;
+}
+
+.frame {
+  width: 50%;
+  border-radius: 4px;
+  background:   #7FFFD4;
+  padding: 20px;
+  margin: 150px auto;
+}
+
+.report-view .frame{
+  margin: 0 0 10px 0;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+#svg {
+  width: 550px;
+  height: 300px;
+}
+
+.contentdashboard { text-align: center; }
