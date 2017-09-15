@@ -47,6 +47,7 @@ class TienvvController extends Controller
             return $this->goHome();
         }
         $tienvv = 'tienvv test';
+        $tienvv = 'tienvv test2';
         $model = new LoginForm();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             return $this->goBack();
